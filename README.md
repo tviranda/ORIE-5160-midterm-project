@@ -13,7 +13,22 @@ We will explore how user location and self-efficacy influence the effectiveness 
 
 ## Repository Structure
 ```
-ORIE-5160-midterm-project/ │ ├── data/ │ ├── data_documentation/ │ ├── gfsteps.csv # Google Fit step data │ ├── jbsteps.csv # Jawbone tracker step data │ ├── suggestions.csv # Activity suggestions and context data │ └── users.csv # User demographics and survey data │ ├── dslc_documentation/ │ ├── functions/ │ ├── 01_cleaning.ipynb # Data cleaning script │ └── 02_eda.ipynb # Exploratory Data Analysis script │ └── README.md
+heartsteps_project/
+│
+├── data/
+│   ├── heartsteps_data.csv       # Main dataset
+│   └── user_survey_data.csv      # User survey responses
+│
+├── dslc_documentation/           # Data Science Life Cycle documentation
+│
+├── functions/
+│   ├── 01_cleaning.ipynb         # Data cleaning script
+│   ├── 02_eda.ipynb              # Exploratory Data Analysis
+│   ├── 03_dimensionality_reduction.ipynb  # Dimensionality reduction techniques
+│   └── 04_clustering.ipynb       # Clustering analysis
+│
+└── README.md                     # Project overview and instructions
+
 ```
 
 
