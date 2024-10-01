@@ -3,6 +3,13 @@
 ## Project Overview
 This project analyzes data from the HeartSteps mobile health intervention to investigate how different types of activity suggestions ("active" vs. "sedentary") affect physical activity and user engagement. The data includes minute-by-minute step counts from the Jawbone tracker and Google Fit, along with notification data.
 
+## Dataset
+
+The **HeartStepsV1** dataset comes from a randomized controlled trial evaluating just-in-time adaptive interventions for physical activity. It includes step counts from the Jawbone tracker and Google Fit, as well as notifications encouraging either "active" or "sedentary" behavior. We are analyzing user responses based on these suggestions and investigating how user location and self-efficacy influence these outcomes.
+
+For more information, see the original dataset on GitHub: [HeartStepsV1 Dataset](https://github.com/klasnja/HeartStepsV1).
+
+
 ## Problem Statement
 We aim to answer the following questions:
 - Which activity suggestion framing ("active" vs. "sedentary") leads to better health outcomes (e.g., steps, active minutes)?
