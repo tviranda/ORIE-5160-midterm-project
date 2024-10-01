@@ -12,7 +12,22 @@ We aim to answer the following questions:
 We will explore how user location and self-efficacy influence the effectiveness of these suggestions.
 
 ## Repository Structure
-ORIE-5160-midterm-project/ │ ├── data/ │ ├── data_documentation/ │ ├── gfsteps.csv # Google Fit step data │ ├── jbsteps.csv # Jawbone tracker step data │ ├── suggestions.csv # Activity suggestions and context data │ └── users.csv # User demographics and survey data │ ├── dslc_documentation/ │ ├── functions/ │ ├── 01_cleaning.ipynb # Data cleaning script │ └── 02_eda.ipynb # Exploratory Data Analysis script │ └── README.md
+heartsteps_project/
+│
+├── data/
+│   ├── heartsteps_data.csv
+│   └── user_survey_data.csv
+│
+├── dslc_documentation/
+│
+├── functions/
+│   ├── 01_cleaning.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_dimensionality_reduction.ipynb
+│   └── 04_clustering.ipynb
+│
+└── README.md
+
 
 
 ## Methodology (PCS Framework)
